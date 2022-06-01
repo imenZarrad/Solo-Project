@@ -46,7 +46,7 @@ const ListeAppointment = () => {
                 <div>{item.DateOfAppointment}</div>
               </td>
               <td>              
-                <div style={{cursor: 'pointer'}} onClick={()=>showDetail(item._id)}>show details</div>
+                <div className="h" style={{cursor: 'pointer'}} onClick={()=>showDetail(item._id)}>show details</div>
               </td>
               <td>              
                 <button class="btn" id={item._id} onClick={deletePatient}>Delete</button>
