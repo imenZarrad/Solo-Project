@@ -1,9 +1,11 @@
 .input{
-  color:rgb(58, 35, 136)  
+  color:rgb(58, 35, 136) ;
+  font-size:xx-large; 
 }
 
 .label{
-    color:rgb(136, 6, 6)
+    color:rgb(136, 6, 6);
+    font-size:xx-large;
 }
 body {
     color: purple;
@@ -33,8 +35,9 @@ body {
         display: table-caption;
     }
  .h {
-    font-size:x-large;
+    font-size:xx-large;
      font-family: Verdana, Geneva, Tahoma, sans-serif; 
+
  }
  .btn{
     background-color: #5a0637; /* Green */
